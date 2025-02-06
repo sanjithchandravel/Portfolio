@@ -1,0 +1,14 @@
+footer {
+    border-top: 2px solid white;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-contact {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}

@@ -1,0 +1,7 @@
+@import url("base/typography.css");
+@import url("components/nav.css");
+@import url("modules/home.css");
+@import url("modules/about.css");
+@import url("modules/project.css");
+@import url("modules/contact.css");
+@import url("components/footer.css")

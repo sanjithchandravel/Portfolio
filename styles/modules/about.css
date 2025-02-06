@@ -1,0 +1,74 @@
+#about {
+    padding-bottom: 20vh;
+    padding-top: 10vh;
+    
+}
+
+.flex-container-about {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 100%;
+    grid-template-areas: 
+    "education certificate"
+    "work certificate";
+    justify-content: center;
+
+}
+
+.certificates {
+    grid-area: certificate;
+    margin-left: 20px;
+    
+
+}
+
+#about h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.same-line {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#about h5 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+ul li {
+    margin-bottom: 20px;
+    list-style-type: none;
+    
+}
+
+.head > li {
+    font-size: 20px;
+}
+
+.tail > li {
+    font-size: 15px;
+}
+
+/* ul li:last-child {
+    margin-bottom: 10px;
+} */
+ @media screen and (max-width: 700px) {
+    .flex-container-about {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    
+    }
+    
+    .certificates {
+        
+        margin-left: 20px;
+        
+    
+    }
+    
+ }

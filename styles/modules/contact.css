@@ -1,0 +1,46 @@
+#contact h1{
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    padding-bottom: 20vh;
+    padding-top: 10vh;
+}
+
+.grid-container-form {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 40px;
+    justify-content: center;
+    
+    
+}
+
+.grid-item-form {
+    align-items: center;
+}
+
+#grid-item-1 {
+    grid-column: 1 / span 2;
+    width: 20vh;
+    justify-self: center;
+}
+
+form label {
+    font-size: 25px;
+}
+
+form button {
+    font-size: 25px;
+    background-color: white;
+}
+
+form button:hover{
+    box-shadow: 0 0 20px white;
+}
+
+.flex-container-contact {
+    display: flex;
+    flex-direction: row;
+}
