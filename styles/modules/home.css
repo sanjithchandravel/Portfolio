@@ -1,5 +1,5 @@
 .image {
-    background-image: url("https://sanjithchandravel.github.io/Portfolio/assets/sanjith.jpg");    
+    background-image: url("/assets/sanjith.jpg");    
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 10px rgb(255,255,255);
@@ -15,7 +15,7 @@
     height: 70vh;
     padding-top: 20vh;
     padding-bottom: 20vh;
-
+    flex-direction: row;
 
     /* background-color: blue; */
 }
@@ -66,4 +66,51 @@ h5{
     100% {
         box-shadow: 0 0 20px white, 0 0 25px white, 0 0 30px white;
     }
+}
+
+/* @media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+    
+
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 0px black, 0 0 5px black;
+        }
+        100% {
+            text-shadow: 0 0 10px black, 0 0 15px black;
+        }
+    }
+    
+    @keyframes glow-box {
+        0% {
+            box-shadow: 0 0 10px black, 0 0 15px black, 0 0 20px black;
+        }
+        100% {
+            box-shadow: 0 0 20px black, 0 0 25px black, 0 0 30px black;
+        }
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    .flex-container-home {
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .image {
+        height: 300px;
+        width: 300px;
+        border-radius: 60%;   
+    }
+
+    .flex-container-home-2 {
+        
+        align-items: center;
+        justify-content: center;
+        
+    }
+
 }

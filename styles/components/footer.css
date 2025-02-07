@@ -12,3 +12,10 @@ footer p {
     justify-content: center;
     gap: 30px;
 }
+
+
+/* @media (prefers-color-scheme: light) {
+    footer {
+        border-top: 2px solid black;
+    }
+} */

@@ -44,3 +44,9 @@ form button:hover{
     display: flex;
     flex-direction: row;
 }
+
+/* @media (prefers-color-scheme: light){
+    form button:hover{
+        box-shadow: 0 0 20px black;
+    }
+} */

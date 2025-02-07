@@ -9,3 +9,9 @@ a {
     text-decoration: none;
     color: white;
 }
+/* @media (prefers-color-scheme: light) {
+    a {
+        color: black;
+    }
+    
+} */
