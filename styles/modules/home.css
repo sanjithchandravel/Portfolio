@@ -1,5 +1,5 @@
 .image {
-    background-image: url("https://github.com/sanjithchandravel/Portfolio/blob/main/assets/sanjith.jpg");    
+    background-image: url("assets/sanjith.jpg");    
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 10px rgb(255,255,255);
@@ -68,7 +68,7 @@ h5{
     }
 }
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     body {
         background-color: white;
         color: black;
@@ -92,7 +92,7 @@ h5{
             box-shadow: 0 0 20px black, 0 0 25px black, 0 0 30px black;
         }
     }
-} */
+}
 
 @media screen and (max-width: 700px) {
     .flex-container-home {

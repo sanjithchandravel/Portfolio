@@ -14,8 +14,8 @@ footer p {
 }
 
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     footer {
         border-top: 2px solid black;
     }
-} */
+}

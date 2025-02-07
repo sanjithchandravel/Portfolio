@@ -33,7 +33,7 @@ nav a:hover{
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 }
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     .flex-container-header{
         background-color: rgb(255,255,255);
         border-bottom: 2px solid black;
@@ -41,4 +41,4 @@ nav a:hover{
     nav a:hover{
         text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
     }
-} */
+}
