@@ -99,6 +99,9 @@ h5{
         flex-direction: column;
         height: 90vh;
     }
+    a{
+        font-size: 15px !important;
+    }
 
     .image {
         height: 300px;

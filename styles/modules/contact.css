@@ -49,4 +49,23 @@ form button:hover{
     form button:hover{
         box-shadow: 0 0 20px black;
     }
+    
+}
+@media screen and (max-width: 700px) {
+    form label {
+        font-size: 20px;
+    }
+    
+    form button {
+        font-size: 20px;
+       
+    }
+    .grid-container-form {
+        
+        grid-template-columns: 150px 150px;
+        row-gap: 30px;
+        
+        
+        
+    }
 }
